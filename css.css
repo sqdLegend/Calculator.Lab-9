@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(61, 61, 61);
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.calculator {
+    padding: 10px;
+    height: 380px;
+    width: 600px;
+    margin: auto;
+    background-color: rgb(31, 31, 31);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    background-color: #dcdbe1;
+    border: solid rgb(27, 27, 27) 0.5px;
+    color: rgb(34, 34, 34);
+    border-radius: 1px;
+    width: 100%;
+    height: 92%;
+}
+#btn {
+    background-color: #278f30;
+}
+input[type=button] {
+    background-color: #278f30;
+    color: white;
+    font-weight: bolder;
+    border: solid rgb(20, 20, 20) 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    outline: none;
+}
+input:active[type=button] {
+    background: black;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+}
